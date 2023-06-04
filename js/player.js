@@ -167,6 +167,7 @@ export class Player extends Actor {
         // check out of bounds
         if (this.pos.y > 1200) {
             engine.goToScene('game-over')
+            Resources.SplashSound.play()
         }
     }
 
