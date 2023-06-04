@@ -52,7 +52,7 @@ export class LevelTwo extends Scene {
     }
 
     spawnBarrelsCoins() {
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 14; i++) {
             const barrel = new Barrel()
             this.add(barrel)
             const coin = new Coin()
