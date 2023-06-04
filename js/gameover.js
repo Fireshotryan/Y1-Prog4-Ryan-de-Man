@@ -36,10 +36,13 @@ export class GameOver extends Scene {
         // een Label is een Actor die automatisch een Text graphic toevoegt.
     }
 
+
+
     onActivate() {
         this.score = this.Dataclass.getScore()
         this.label.text = `Spel voorbij!\nKlik spacebar voor level 1\n Klik enter voor level 2 \n je eindscore: ${this.score}`
         this.add(this.label)
+        Resources.UnderwaterSound.play()
     }
 
     onPreUpdate(engine, delta) {

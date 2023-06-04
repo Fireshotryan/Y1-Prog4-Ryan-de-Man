@@ -13,6 +13,7 @@ const Resources = {
     Player: new ImageSource("images/adventurer.png"),
     Platform: new ImageSource("images/platform.png"),
     SplashSound: new Sound("assets/splash.mp3"),
+    UnderwaterSound: new Sound("assets/underwater.mp3"),
     CoinSound: new Sound("assets/coin.mp3"),
     PlatformData: new Resource("data/platforms.json", "json"),
     PlatformDataTwo: new Resource("data/platformtwo.json", "json")
@@ -29,6 +30,7 @@ const ResourceLoader = new Loader([
     Resources.Player,
     Resources.Platform,
     Resources.SplashSound,
+    Resources.UnderwaterSound,
     Resources.CoinSound,
     Resources.PlatformData,
     Resources.PlatformDataTwo

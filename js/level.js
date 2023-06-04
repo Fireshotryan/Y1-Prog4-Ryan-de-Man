@@ -40,6 +40,7 @@ export class Level extends Scene {
         this.spawnBarrelsCoins()
         this.ui.reset()
         this.player.reset()
+        Resources.UnderwaterSound.stop()
     }
 
     spawnPlatforms() {
