@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { Actor, Color, ScreenElement, Engine, Vector, Physics, ParallaxComponent, Scene } from 'https://esm.sh/excalibur'
 import { Resources } from "./resources.js"
 import { Player } from "./player.js"

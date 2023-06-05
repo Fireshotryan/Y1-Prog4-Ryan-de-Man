@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { Engine, CollisionType, Actor, Color, Vector } from 'https://esm.sh/excalibur'
 import { Resources } from './resources.js'
 

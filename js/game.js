@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { Engine, Physics, Vector } from 'https://esm.sh/excalibur'
 import { ResourceLoader } from "./resources.js"
 import { Level } from "./level.js"

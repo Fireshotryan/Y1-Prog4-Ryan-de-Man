@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { Engine, TextAlign, BaseAlign, Line, Label, Text, FontUnit, Vector, Color, Circle, ScreenElement, Font } from 'https://esm.sh/excalibur'
 
 

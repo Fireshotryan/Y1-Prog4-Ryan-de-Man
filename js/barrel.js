@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { Physics, CollisionType, Actor, Vector } from 'https://esm.sh/excalibur'
 import { Resources } from './resources.js'
 

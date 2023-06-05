@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { ImageSource, Sound, Resource, Loader } from 'https://esm.sh/excalibur'
 
 

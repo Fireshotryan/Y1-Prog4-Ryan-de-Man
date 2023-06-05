@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { Engine, TextAlign, BaseAlign, Actor, Label, Input, FontUnit, Vector, Color, Scene, Font } from 'https://esm.sh/excalibur'
 import { Resources } from './resources.js'
 

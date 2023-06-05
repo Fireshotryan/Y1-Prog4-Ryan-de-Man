@@ -1,3 +1,4 @@
+// Importeer Excalibur library
 import { CollisionType, Actor, Input, Vector, vec, DegreeOfFreedom, Engine, Sprite, AnimationStrategy, SpriteSheet, Animation, range, Shape } from 'https://esm.sh/excalibur'
 import { Coin } from "./coin.js"
 import { Resources } from './resources.js'
@@ -73,14 +74,14 @@ export class Player extends Actor {
         this.reset()
 
         // hit something
-        this.on('collisionstart', (event) => this.hitSomething(event))
+        this.on('collisionstart', (event) => this.makeContact(event))
     }
 
     reset() {
         this.pos = new Vector(this.game.screen.resolution.width / 2, this.game.screen.resolution.height / 3)
     }
 
-    hitSomething(event) {
+    makeContact(event) {
         if (event.other instanceof Coin) {
             event.other.pickedUpByPlayer()
            
