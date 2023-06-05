@@ -90,8 +90,8 @@ export class Player extends Actor {
 
     onPreUpdate(engine, delta) {
 
-        console.log(this.animplaying)
-        console.log(this.jumped)
+      //  console.log(this.animplaying)
+      //  console.log(this.jumped)
 
         if (this.vel.y == 0) {
             this.jumped = false

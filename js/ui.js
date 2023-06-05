@@ -1,8 +1,6 @@
 import { Engine, TextAlign, BaseAlign, Line, Label, Text, FontUnit, Vector, Color, Circle, ScreenElement, Font } from 'https://esm.sh/excalibur'
 
-// screenelement heeft geen collision, altijd on top, beweegt niet mee met camera
-// beperking: je kan alleen text en graphics toevoegen via graphics.add
-// geeft warning Excalibur only supports convex polygon colliders
+
 export class UI extends ScreenElement {
 
     score = 0
