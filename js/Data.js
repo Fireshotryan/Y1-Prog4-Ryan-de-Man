@@ -1,4 +1,3 @@
-// Importeer Excalibur library
 export class DataClass {
 
     score = 0
