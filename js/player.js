@@ -65,7 +65,6 @@ export class Player extends Actor {
         this.playerAnimations['idleAnimation'] = Animation.fromSpriteSheet(idleAnimation, range(0, 3), 100, );
 
         this.game = engine
-            // this.graphics.use(this.playerAnimations['idleAnimation'])
 
         // enable physics
         this.body.useGravity = true
