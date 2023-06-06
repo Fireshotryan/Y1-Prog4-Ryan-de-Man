@@ -9,7 +9,7 @@ export class UI extends ScreenElement {
     Dataclass
 
     constructor(dataclass) {
-        super({ x: 10, y: 10 })
+        super({ x: 10, y: 550 })
         this.Dataclass = dataclass
     }
 
@@ -26,7 +26,7 @@ export class UI extends ScreenElement {
         this.graphics.add(this.scoreText)
     }
 
-    reset(){
+    reset() {
         this.score = 0
         this.scoreText.text = `Score: 0`
         this.Dataclass.setScore(0)
@@ -34,7 +34,7 @@ export class UI extends ScreenElement {
 
     updateScore() {
         this.score++
-        this.Dataclass.setScore(this.score)
+            this.Dataclass.setScore(this.score)
         this.scoreText.text = `Score: ${this.score}`
     }
 }
